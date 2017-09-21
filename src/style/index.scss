@@ -1,3 +1,19 @@
+//Fonts
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url("../fonts/AvenirNext-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir-Bold";
+  src: url("../fonts/avenir-next-bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avenir-Italic";
+  src: url("../fonts/AvenirNext-Italic.otf") format("opentype");
+}
+
 //Colors
 //Orange
 $primary-color: #ED6C44;
@@ -11,8 +27,6 @@ $color-trot: #FDAE3A;
 $color-canter: #DF4686;
 //bluepurple
 $color-tolt: #6A48C4;
-
-
 
 body {
   margin: 0;
