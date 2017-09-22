@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import Routes from './Routes';
 
-import '../style/FAQ.css';
+import '../style/Faq.css';
 
 class FAQ extends Component {
   render() {

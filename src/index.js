@@ -8,7 +8,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Start from './components/Start';
 import Hiring from './components/Hiring';
-import Faq from './components/FAQ';
+import Faq from './components/Faq';
+
+//import css
+import './style/index.css';
 // import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
