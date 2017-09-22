@@ -4,6 +4,8 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import StartPage from './Start';
+import FAQPage from './FAQ';
 
 const Routes = () => (
   <Router>
@@ -14,8 +16,6 @@ const Routes = () => (
         <li><Link to="/hiring">Hiring</Link></li>
       </ul>
 
-      <hr/>
-
       <Route exact path="/" component={Start}/>
       <Route path="/faq" component={FAQ}/>
       <Route path="/hiring" component={Hiring}/>
@@ -25,13 +25,13 @@ const Routes = () => (
 
 const Start = () => (
   <div>
-    <h2>Start</h2>
+    <StartPage />
   </div>
 );
 
 const FAQ = () => (
   <div>
-    <h2>FAQ</h2>
+    <FAQPage />
   </div>
 );
 
@@ -54,7 +54,6 @@ const Hiring = ({ match }) => (
     </ul>
 
     <Route path={`${match.url}/:hiringId`} component={HiringDetail}/>
-
   </div>
 )
 
