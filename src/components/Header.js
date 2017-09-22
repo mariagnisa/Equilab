@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import '../style/App.css';
+import '../style/Header.css';
+import logo from '../assets/img/logo.png';
 
 class Header extends Component {
   render() {
     return (
       <div>
-        <Link to={`/`}>
-          <img className="header-logo" src="../assets/img/logo.png" alt="Equilab"/>
-        </Link>
+        <div className=" d-flex justify-content-end">
+          <Link to={`/`}>
+            <img className="header-logo" src={logo} alt="Equilab"/>
+          </Link>
+        </div>
       </div>
     );
   }
