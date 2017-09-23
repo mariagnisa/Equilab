@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 //import moduls
-import Background from './components/Background';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Start from './components/Start';
@@ -16,7 +15,7 @@ import './style/index.css';
 
 ReactDOM.render(
   <BrowserRouter>
-    <div style={Background}>
+    <div>
       <Header />
       <Switch>
         <Route path="/faq" component={Faq} />
