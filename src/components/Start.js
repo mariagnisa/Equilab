@@ -9,10 +9,10 @@ class Start extends Component {
   render() {
     return (
       <div className="container d-flex">
-        <div className="col-6">
+        <div className="col-8">
           <Slogan />
         </div>
-        <div className="col-6">
+        <div className="col-4">
           <Slider />
         </div>
       </div>

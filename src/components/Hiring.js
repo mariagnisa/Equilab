@@ -11,17 +11,17 @@ class Hiring extends Component {
 
     return (
       <div className="container d-flex">
-        <div className="col-6">
+        <div className="col-8">
           <Slogan />
         </div>
 
-        <div className="flex-row">
-          <div className="col-6">
+        <div className="">
+          <div className="flex-row">
             <h4>{ headline }</h4>
             <p>{ para }</p>
           </div>
 
-          <div>
+          <div className="flex-column">
             <h4>{pos}</h4>
           </div>
         </div>

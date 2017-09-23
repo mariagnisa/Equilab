@@ -16,11 +16,12 @@ html, body {
   height: 100vh; }
 
 body {
-  background-image: url("../assets/img/background_desktop.jpg");
+  background-image: url("../assets/img/background_mobile.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 100vh; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 576px) {
   body {
-    background-image: url("../assets/img/background_mobile.jpg"); } }
+    background-image: url("../assets/img/background_desktop.jpg"); } }
