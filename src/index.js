@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Start from './components/Start';
 import Hiring from './components/Hiring';
 import Faq from './components/Faq';
+import Slider from './components/Slider';
 
 //import css
 import './style/index.css';
@@ -22,6 +23,7 @@ ReactDOM.render(
         <Route path="/hiring" component={Hiring} />
         <Route path="/" component={Start} />
       </Switch>
+      {/* <Slider /> */}
       <Footer />
     </div>
   </BrowserRouter>
