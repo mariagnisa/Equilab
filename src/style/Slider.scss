@@ -1,5 +1,11 @@
+@import "./index.scss";
+
 img.phoneAnimation {
   width: 10em;
+}
+h5 {
+  color: $primary-color;
+  font-weight: 200;
 }
 p {
   font-size: 12px;

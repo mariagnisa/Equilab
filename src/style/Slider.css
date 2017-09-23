@@ -1,5 +1,26 @@
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url("../assets/fonts/AvenirNext-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Bold";
+  src: url("../assets/fonts/avenir-next-bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Italic";
+  src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
 img.phoneAnimation {
   width: 10em; }
+
+h5 {
+  color: #ED6C44;
+  font-weight: 200; }
 
 p {
   font-size: 12px;
