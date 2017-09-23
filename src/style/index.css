@@ -10,8 +10,7 @@
   font-family: "Avenir-Italic";
   src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
 
-body {
-  background-color: #ED6C44;
+html, body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif; }
+  height: 100vh; }

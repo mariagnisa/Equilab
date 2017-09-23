@@ -6,7 +6,7 @@ import '../style/Start.css';
 class Start extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <p>homepage </p>
       </div>
     );

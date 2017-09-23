@@ -1,5 +1,30 @@
-.footer-link a {
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 5px; }
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url("../assets/fonts/AvenirNext-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Bold";
+  src: url("../assets/fonts/avenir-next-bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Italic";
+  src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+.footer {
+  position: absolute;
+  bottom: 30px; }
+  .footer a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    font-family: "Avenir-Regular";
+    font-size: 19px; }
+  .footer .app-logo {
+    width: 60px;
+    height: 18px; }
