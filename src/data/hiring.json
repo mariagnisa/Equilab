@@ -1,0 +1,23 @@
+{
+  "title": "We're growing! And we want to meet awesome new people.",
+  "content": "If you don't feel like reading, just come by for a coffee instead, we are located at Holtermansgatan 1c, Gothenburg.",
+  "contact": "Contact us at team@equilab.horse and let us talk it over! We are based in Gothenburg.",
+  "objects": [
+    {
+      "_id": "1",
+      "title": "React Native",
+      "data": {
+        "the_task": "We at Equilab are right now looking for at least two new developers. We are a small team so if you are intrested there is a good possibility to do more than app development. For exemple som ebackend (python and node), design or even play around with our machine learing.",
+        "description": "Breaking Things, Curious, Swift, Java (testing Kotlin), Firebase, Realm, Fastlane, A/B testing, Sketchapp, Slack and Trello."
+      }
+    },
+    {
+      "_id": "2",
+      "title": "Pattern Recognition/DevOps",
+      "data": {
+        "the_task": "For each that pass we have a growing amount of information to process and your task will be to help us gain from this data. We are a small team so if you are intrested there is a good possibility to do more than Pattern Recogniction/DevOps development.",
+        "description": "Breaking Things, Curious, Tensorflow, Neural Network, Fast Learner, Python, Google Cloud, Tech Savvy, Slack and Trello."
+      }
+    }
+  ]
+}
