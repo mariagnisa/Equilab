@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <div className=" d-flex justify-content-end">
+        <div className=" d-flex justify-content-start">
           <Link to={`/`}>
             <img className="header-logo" src={logo} alt="Equilab"/>
           </Link>

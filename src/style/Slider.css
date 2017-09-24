@@ -15,13 +15,13 @@ html, body {
   padding: 0;
   height: 100vh; }
 
-body {
-  background-image: url("../assets/img/background_mobile.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh; }
+img.phoneAnimation {
+  width: 10em; }
 
-@media only screen and (min-width: 576px) {
-  body {
-    background-image: url("../assets/img/background_desktop.jpg"); } }
+h5 {
+  color: #ED6C44;
+  font-weight: 200; }
+
+p {
+  font-size: 12px;
+  text-align: right; }

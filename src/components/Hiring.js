@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import HiringData from '../data/hiring.json';
+import Slogan from './Slogan';
+import HiringDetails from './Hiring_details';
 import '../style/Hiring.css';
 
 class Hiring extends Component {
@@ -8,15 +10,20 @@ class Hiring extends Component {
     let pos = "Available Positions:";
 
     return (
-      <div className="container">
-        <div>
-          <h4>{HiringData.title}</h4>
-          <p>{HiringData.content}</p>
+      <div className="container d-flex">
+        <div className="col-8">
+          <Slogan />
         </div>
 
-        <div>
-          <h4>{pos}</h4>
-          <p>{}</p>
+        <div className="">
+          <div className="flex-row">
+            <h4>{HiringData.title}</h4>
+            <p>{HiringData.content}</p>
+          </div>
+
+          <div className="flex-column">
+            <h4>{pos}</h4>
+          </div>
         </div>
       </div>
     );
