@@ -5,7 +5,7 @@ class HiringDetails extends Component {
   render() {
     return (
       <div>
-      
+      hej
       </div>
     );
   }

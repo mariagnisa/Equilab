@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Start from './components/Start';
 import Hiring from './components/Hiring';
+import HiringDetails from './components/Hiring_details';
 import Faq from './components/Faq';
 import Slider from './components/Slider';
 
@@ -19,6 +20,7 @@ ReactDOM.render(
     <div>
       <Header />
       <Switch>
+        <Route path={`/hiring/:job`} component={HiringDetails} />
         <Route path="/faq" component={Faq} />
         <Route path="/hiring" component={Hiring} />
         <Route path="/" component={Start} />

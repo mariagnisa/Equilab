@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Slogan from './Slogan';
-//import Routes from './Routes';
 
 import '../style/Faq.css';
 
