@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slogan from './Slogan';
 
-import '../style/Faq.css';
+import '../style/FAQ.css';
 
 class FAQ extends Component {
   render() {
