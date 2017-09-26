@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import Start from './components/Start';
 import Hiring from './components/Hiring';
 import HiringDetails from './components/Hiring_details';
-import Faq from './components/FAQ';
+import Faq from './components/Faq';
 import Slider from './components/Slider';
 
 //import css
