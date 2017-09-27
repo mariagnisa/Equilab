@@ -5,10 +5,10 @@ import '../style/Slogan.css';
 class Slogan extends Component {
   render() {
     return (
-      <div className="container">
-        <h1 className="display-5"><strong>EQUILAB</strong></h1>
-        <h2 className="display-5">MORE <span>RIDING</span></h2>
-        <h2 className="display-5">LESS WORRY</h2>
+      <div className="container slogan">
+        <h1><strong>EQUILAB</strong></h1>
+        <h2>MORE RIDING</h2>
+        <h2 className="lessWorry">LESS WORRY</h2>
       </div>
     );
   }

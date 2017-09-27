@@ -10,7 +10,7 @@ class Slider extends Component {
 
     return (
       <div className="container d-flex">
-        <div className="col-12">
+        <div className="slider">
           <img className="phoneAnimation" src={phoneAnimation} alt=""/>
           <h5>{ headline }</h5>
           <p>{ para }</p>
