@@ -35,11 +35,4 @@ body {
   background-image: url("../assets/img/background_desktop.jpg");
   background-size: cover;
   background-position: left;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 200vw; }
-
-@media only screen and (min-width: 576px) {
-  body {
-    background-image: url("../assets/img/background_desktop.jpg");
-    width: 100vw; } }
+  background-repeat: no-repeat; }
