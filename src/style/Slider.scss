@@ -1,8 +1,6 @@
 @import "./index.scss";
 
 .slider {
-  margin-left: -3em;
-  margin-top: 0;
   h5 {
     color: #46A4A2;
     font-family: "Avenir-Regular";
@@ -26,6 +24,8 @@
     width: 8em;
   }
   @media only screen and (min-width: 576px) {
+      margin-left: -3em;
+      margin-top: 0;
     h5 {
       color: #46A4A2;
       font-family: "Avenir-Regular";

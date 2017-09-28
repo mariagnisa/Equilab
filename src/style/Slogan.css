@@ -14,6 +14,10 @@
   font-family: "Avenir-Italic";
   src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
 
+@font-face {
+  font-family: "Avenir-UltraLight";
+  src: url("../assets/fonts/AvenirNextLTPro-UltLt.otf") format("opentype"); }
+
 @media (min-width: 1200px) {
   .container {
     width: 1400px !important; } }
@@ -44,6 +48,6 @@ html, body {
 
 .slogan h2 {
   color: #000000;
-  font-family: "Avenir-Regular";
+  font-family: "Avenir-UltraLight";
   font-size: 2rem;
   font-weight: 100; }
