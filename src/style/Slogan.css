@@ -1,9 +1,43 @@
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url("../assets/fonts/AvenirNext-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Bold";
+  src: url("../assets/fonts/avenir-next-bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../assets/fonts/AvenirNext-Medium.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Italic";
+  src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1400px !important; } }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+.reg {
+  font-family: "Avenir-Regular";
+  font-size: 18px; }
+
+.bold {
+  font-family: "Avenir-Medium";
+  font-size: 18px; }
+
+h1 {
+  font-family: "Avenir-Bold";
+  font-size: 80px; }
+
 h1, h2 {
   color: white; }
 
 h2 {
-  font-weight: 200; }
-
-span {
-  color: black;
-  font-weight: 200; }
+  font-family: "Avenir-Regular";
+  font-size: 48px; }

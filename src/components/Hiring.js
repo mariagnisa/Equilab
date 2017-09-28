@@ -42,6 +42,8 @@ class Hiring extends Component {
   // }
 
   render() {
+    let title = "We're growing!";
+    let title2 = "And we want to meet awesome new people.";
     let pos = "Available Positions:";
 
     return (
@@ -50,14 +52,19 @@ class Hiring extends Component {
           <Slogan />
         </div>
 
-        <div className="">
+        <div className="hiring">
           <div className="flex-row">
-            <h4>{HiringData.title}</h4>
-            <p>{HiringData.content}</p>
+            <div className="bold">
+              {title}
+              <br/>
+              {title2}
+            </div>
+
+            <p className="reg">{HiringData.content}</p>
           </div>
 
           <div className="flex-column">
-            <h4>{pos}</h4>
+            <p className="bold">{pos}</p>
             <HiringList jobs={this.state.jobs} />
           </div>
         </div>

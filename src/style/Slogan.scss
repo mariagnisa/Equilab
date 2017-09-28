@@ -1,10 +1,18 @@
+//import stylesheet
+@import "./index.scss";
+
+h1 {
+  font-family: "Avenir-Bold";
+  font-size: 80px;
+}
 h1, h2 {
   color: white;
 }
 h2 {
-  font-weight: 200;
+  font-family: "Avenir-Regular";
+  font-size: 48px;
 }
-span {
-  color: black;
-  font-weight: 200;
-}
+// span {
+//   color: black;
+//   font-weight: 200;
+// }

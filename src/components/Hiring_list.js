@@ -10,7 +10,7 @@ const HiringList = (props) => {
   });
 
   return (
-    <ul className="">
+    <ul>
     {jobItems}
     </ul>
   );

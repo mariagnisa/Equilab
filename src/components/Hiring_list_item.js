@@ -10,7 +10,7 @@ const HiringListItem = ({job}) => {
       pathname: `/hiring/${job.title.replace(/\s+/g, '')}`,
       state: { jobs: job }
     }} key={job._id} >
-    <li className="hiring_links">
+    <li>
     {job.title}
     </li>
     </Link>
