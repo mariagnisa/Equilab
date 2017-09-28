@@ -1,18 +1,31 @@
-//import stylesheet
 @import "./index.scss";
 
-h1 {
+.container.slogan {
+  // margin-left: -2.7em;
+  // padding-top: 2.5em;
+}
+.slogan h1, .slogan h2 {
+  line-height: 1.5rem;
+}
+.slogan h1 {
+  color: #FFF3F3;
   font-family: "Avenir-Bold";
-  font-size: 80px;
+  font-size: 2.5rem;
+  // letter-spacing: 3.81px;
+  // line-height: 1.75rem;
 }
-h1, h2 {
-  color: white;
+.slogan strong {
+  font-weight: bold;
 }
-h2 {
+.slogan h2 {
+  color: #000000;
   font-family: "Avenir-Regular";
-  font-size: 48px;
+  font-size: 2rem;
+  font-weight: 100;
+  // letter-spacing: 2.29px;
+  // line-height: 3.25rem;
+  // line-height: 2rem;
 }
-// span {
-//   color: black;
-//   font-weight: 200;
+// h2.lessWorry {
+//   line-height: 0;
 // }
