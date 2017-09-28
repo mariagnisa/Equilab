@@ -12,9 +12,9 @@ class Start extends Component {
         <div className="col-md-8">
           <Slogan />
         </div>
-        <div className="col-md-4">
+        {/* <div className="col-md-4">
           <Slider />
-        </div>
+        </div> */}
       </div>
     );
   }
