@@ -41,22 +41,20 @@ body {
   background-position: 15%;
   background-repeat: no-repeat; }
 
-.slogan h1, .slogan h2 {
-  line-height: 1.5rem; }
-
-.slogan h1 {
-  color: #FFF3F3;
-  font-family: "Avenir-Bold";
-  font-size: 2.5rem;
-  letter-spacing: 3.81px; }
-
-.slogan strong {
-  font-weight: bold; }
-
-.slogan h2 {
-  color: #000000;
-  font-family: "Avenir-UltraLight";
-  font-size: 2rem;
-  font-weight: 100;
-  margin-right: 1rem;
-  text-align: right; }
+.slogan {
+  width: 16rem; }
+  .slogan h1, .slogan h2 {
+    line-height: 1.5rem; }
+  .slogan h1 {
+    color: #FFF3F3;
+    font-family: "Avenir-Bold";
+    font-size: 2.5rem;
+    letter-spacing: 3.81px; }
+  .slogan strong {
+    font-weight: bold; }
+  .slogan h2 {
+    color: #000000;
+    font-family: "Avenir-UltraLight";
+    font-size: 1.9rem;
+    font-weight: 100;
+    text-align: right; }
