@@ -35,6 +35,12 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 18px; }
 
+body {
+  background-image: url("../assets/img/background_desktop.jpg");
+  background-size: cover;
+  background-position: 15%;
+  background-repeat: no-repeat; }
+
 .footer {
   position: absolute;
   bottom: 30px; }
