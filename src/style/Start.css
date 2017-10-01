@@ -40,9 +40,3 @@ body {
   background-size: cover;
   background-position: 15%;
   background-repeat: no-repeat; }
-
-.start body {
-  background-image: url("../assets/img/background_desktop.jpg");
-  background-size: cover;
-  background-position: 15%;
-  background-repeat: no-repeat; }
