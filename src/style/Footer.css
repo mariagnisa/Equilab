@@ -25,17 +25,17 @@ html, body {
 
 .reg {
   font-family: "Avenir-Regular";
-  font-size: 18px; }
+  font-size: 14px; }
 
 .bold {
   font-family: "Avenir-Medium";
-  font-size: 18px; }
+  font-size: 14px; }
 
 .footer {
   position: absolute;
   bottom: 30px; }
   .footer a {
-    color: black;
+    color: #47A8A5;
     text-decoration: none;
     cursor: pointer;
     margin: 10px;

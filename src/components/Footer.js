@@ -5,9 +5,22 @@ import '../style/Footer.css';
 
 class Footer extends Component {
   render() {
-    return (
-      <div className="footer">
-        <div className="">
+    //todo use redux or change routes structure
+    function footerLinks() {
+      if (window.location.href === 'http://localhost:3000/hiring') {
+        return <div>
+          <Link to={`/`}>
+            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+          </Link>
+          <Link to={`/`}>
+            <img className="app-logo" src={GooglePlay} alt="Google play"/>
+          </Link>
+          <Link to={`/faq`}>
+            FAQ
+          </Link>
+        </div>
+      } else if (window.location.href === 'http://localhost:3000/faq') {
+        return <div>
           <Link to={`/`}>
             <img className="app-logo" src={GooglePlay} alt="Appstore"/>
           </Link>
@@ -17,10 +30,28 @@ class Footer extends Component {
           <Link to={`/hiring`}>
             HIRING
           </Link>
+        </div>
+      } else if (window.location.href !== 'http://localhost:3000/faq' && window.location.href !== 'http://localhost:3000/hiring') {
+        return <div>
+          <Link to={`/`}>
+            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+          </Link>
+          <Link to={`/`}>
+            <img className="app-logo" src={GooglePlay} alt="Google play"/>
+          </Link>
           <Link to={`/faq`}>
             FAQ
           </Link>
+          <Link to={`/hiring`}>
+            HIRING
+          </Link>
         </div>
+      }
+    }
+
+    return (
+      <div className="footer">
+          {footerLinks()}
       </div>
     );
   }

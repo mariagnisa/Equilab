@@ -25,18 +25,26 @@ html, body {
 
 .reg {
   font-family: "Avenir-Regular";
-  font-size: 18px; }
+  font-size: 14px; }
 
 .bold {
   font-family: "Avenir-Medium";
-  font-size: 18px; }
+  font-size: 14px; }
+
+.container {
+  justify-content: flex-end; }
 
 .hiring {
-  text-align: right; }
+  margin-top: 2em;
+  margin-right: 1.2em;
+  text-align: right;
+  width: 55vw; }
   .hiring li {
     list-style: none; }
   .hiring a {
     text-decoration: none;
     color: #ED6C44;
     font-family: "Avenir-Regular";
-    font-size: 21px; }
+    font-size: 16px; }
+  .hiring .margin_top {
+    margin-top: 4em; }

@@ -25,11 +25,11 @@ html, body {
 
 .reg {
   font-family: "Avenir-Regular";
-  font-size: 18px; }
+  font-size: 14px; }
 
 .bold {
   font-family: "Avenir-Medium";
-  font-size: 18px; }
+  font-size: 14px; }
 
 body {
   background-image: url("../assets/img/eq_home_mobile.png");

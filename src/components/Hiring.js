@@ -48,24 +48,23 @@ class Hiring extends Component {
 
     return (
       <div className="container d-flex">
-        <div className="col-8">
-          <Slogan />
-        </div>
-
         <div className="hiring">
           <div className="flex-row">
-            <div className="bold">
-              {title}
-              <br/>
-              {title2}
+            <div className="text">
+              <div className="bold">
+                {title}
+                <br/>
+                {title2}
+              </div>
+              <p className="reg">{HiringData.content}</p>
             </div>
-
-            <p className="reg">{HiringData.content}</p>
           </div>
 
           <div className="flex-column">
-            <p className="bold">{pos}</p>
-            <HiringList jobs={this.state.jobs} />
+            <div className="margin_top">
+              <p className="bold">{pos}</p>
+              <HiringList jobs={this.state.jobs} />
+            </div>
           </div>
         </div>
       </div>

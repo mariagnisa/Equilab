@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Avenir-Regular";
   src: url("../assets/fonts/AvenirNext-Regular.otf") format("opentype"); }
-<<<<<<< HEAD
 
 @font-face {
   font-family: "Avenir-Bold";
@@ -26,36 +25,11 @@ html, body {
 
 .reg {
   font-family: "Avenir-Regular";
-  font-size: 18px; }
+  font-size: 14px; }
 
 .bold {
   font-family: "Avenir-Medium";
-  font-size: 18px; }
-
-h1 {
-  font-family: "Avenir-Bold";
-  font-size: 80px; }
-
-h1, h2 {
-  color: white; }
-
-h2 {
-  font-family: "Avenir-Regular";
-  font-size: 48px; }
-=======
-
-@font-face {
-  font-family: "Avenir-Bold";
-  src: url("../assets/fonts/avenir-next-bold.otf") format("opentype"); }
-
-@font-face {
-  font-family: "Avenir-Italic";
-  src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
-
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100vh; }
+  font-size: 14px; }
 
 .slogan h1, .slogan h2 {
   line-height: 1.5rem; }
@@ -73,4 +47,3 @@ html, body {
   font-family: "Avenir-Regular";
   font-size: 2rem;
   font-weight: 100; }
->>>>>>> 1a4acba7b9f335df658d18b66ed8dab9848cd3a7
