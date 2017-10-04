@@ -8,7 +8,7 @@ import '../style/Start.css';
 class Start extends Component {
   render() {
     return (
-      <div className="container d-flex flex-column">
+      <div className="start d-flex flex-column flex-md-row">
         <div className="col-md-8">
           <Slogan />
         </div>

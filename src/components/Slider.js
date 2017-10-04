@@ -19,20 +19,15 @@ class Slider extends Component {
   this.state = { slides };
 }
 
-
-  // const headline = 'DETAILS';
-  // const para = 'Afterwards you can analyze your training by looking at your performance, energy consumption, gait distrubution, intensity jumps, intensity,stride, beat, pace, distance, speed,surface hardness, nr of jumps, etc....';
-
   render() {
-
     return (
-      <div className="container d-flex">
+      // <div className="container d-flex">
         <div className="slider">
           <img className="phoneAnimation" src={phoneAnimation} alt=""/>
           <h5>{SliderData[0].title}</h5>
           <p>{SliderData[0].content}</p>
         </div>
-      </div>
+      // </div>
     );
   }
 }

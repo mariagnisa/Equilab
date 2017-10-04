@@ -14,6 +14,10 @@
   font-family: "Avenir-Italic";
   src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
 
+@font-face {
+  font-family: "Avenir-UltraLight";
+  src: url("../assets/fonts/AvenirNextLTPro-UltLt.otf") format("opentype"); }
+
 @media (min-width: 1200px) {
   .container {
     width: 1400px !important; } }
@@ -30,6 +34,12 @@ html, body {
 .bold {
   font-family: "Avenir-Medium";
   font-size: 14px; }
+
+body {
+  background-image: url("../assets/img/background_desktop.jpg");
+  background-size: cover;
+  background-position: 15%;
+  background-repeat: no-repeat; }
 
 .container {
   justify-content: flex-end; }

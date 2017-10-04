@@ -14,6 +14,10 @@
   font-family: "Avenir-Italic";
   src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
 
+@font-face {
+  font-family: "Avenir-UltraLight";
+  src: url("../assets/fonts/AvenirNextLTPro-UltLt.otf") format("opentype"); }
+
 @media (min-width: 1200px) {
   .container {
     width: 1400px !important; } }
@@ -31,19 +35,26 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px; }
 
-.slogan h1, .slogan h2 {
-  line-height: 1.5rem; }
+body {
+  background-image: url("../assets/img/background_desktop.jpg");
+  background-size: cover;
+  background-position: 15%;
+  background-repeat: no-repeat; }
 
-.slogan h1 {
-  color: #FFF3F3;
-  font-family: "Avenir-Bold";
-  font-size: 2.5rem; }
-
-.slogan strong {
-  font-weight: bold; }
-
-.slogan h2 {
-  color: #000000;
-  font-family: "Avenir-Regular";
-  font-size: 2rem;
-  font-weight: 100; }
+.slogan {
+  width: 16rem; }
+  .slogan h1, .slogan h2 {
+    line-height: 1.5rem; }
+  .slogan h1 {
+    color: #FFF3F3;
+    font-family: "Avenir-Bold";
+    font-size: 2.5rem;
+    letter-spacing: 3.81px; }
+  .slogan strong {
+    font-weight: bold; }
+  .slogan h2 {
+    color: #000000;
+    font-family: "Avenir-UltraLight";
+    font-size: 1.9rem;
+    font-weight: 100;
+    text-align: right; }

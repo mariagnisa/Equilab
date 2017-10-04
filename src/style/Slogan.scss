@@ -1,31 +1,49 @@
 @import "./index.scss";
 
-.container.slogan {
-  // margin-left: -2.7em;
-  // padding-top: 2.5em;
+.slogan {
+  width: 16rem;
+  h1, h2 {
+    line-height: 1.5rem;
+  }
+  h1 {
+    color: #FFF3F3;
+    font-family: "Avenir-Bold";
+    font-size: 2.5rem;
+    letter-spacing: 3.81px;
+    // line-height: 1.75rem;
+    // margin-left: 1.5rem;
+  }
+  strong {
+    font-weight: bold;
+  }
+  h2 {
+    color: #000000;
+    font-family: "Avenir-UltraLight";
+    font-size: 1.9rem;
+    font-weight: 100;
+    // letter-spacing: 2.29px;
+    // line-height: 3.25rem;
+    // line-height: 2rem;
+    // margin-right: 2.5rem;
+    text-align: right;
+  }
 }
-.slogan h1, .slogan h2 {
-  line-height: 1.5rem;
-}
-.slogan h1 {
-  color: #FFF3F3;
-  font-family: "Avenir-Bold";
-  font-size: 2.5rem;
-  // letter-spacing: 3.81px;
-  // line-height: 1.75rem;
-}
-.slogan strong {
-  font-weight: bold;
-}
-.slogan h2 {
-  color: #000000;
-  font-family: "Avenir-Regular";
-  font-size: 2rem;
-  font-weight: 100;
-  // letter-spacing: 2.29px;
-  // line-height: 3.25rem;
-  // line-height: 2rem;
-}
-// h2.lessWorry {
-//   line-height: 0;
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

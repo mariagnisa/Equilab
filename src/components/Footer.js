@@ -31,7 +31,7 @@ class Footer extends Component {
             HIRING
           </Link>
         </div>
-      } else if (window.location.href !== 'http://localhost:3000/faq' && window.location.href !== 'http://localhost:3000/hiring') {
+      } 
         return <div>
           <Link to={`/`}>
             <img className="app-logo" src={GooglePlay} alt="Appstore"/>
@@ -46,7 +46,7 @@ class Footer extends Component {
             HIRING
           </Link>
         </div>
-      }
+
     }
 
     return (
