@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import BodyClassName from 'react-body-classname';
+
 import Slogan from './Slogan';
 
 import '../style/Faq.css';
@@ -6,6 +8,8 @@ import '../style/Faq.css';
 class FAQ extends Component {
   render() {
     return (
+      <BodyClassName className="body-faq">
+
         <div className="container d-flex">
           <div className="col-6">
             <Slogan />
@@ -15,8 +19,10 @@ class FAQ extends Component {
             <p>FAQ</p>
           </div>
         </div>
-    );
-  }
+
+      </BodyClassName>
+      );
+    }
 }
 
 export default FAQ;

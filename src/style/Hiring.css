@@ -35,6 +35,16 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px; }
 
+.body-hiring {
+  background-image: url("../assets/img/background_mobile_bottom.jpg");
+  background-size: cover;
+  background-position: center center; }
+  @media only screen and (min-width: 576px) {
+    .body-hiring {
+      background-image: url("../assets/img/background_desktop.jpg");
+      background-size: cover;
+      background-position: center center; } }
+
 .container {
   justify-content: flex-end; }
 
