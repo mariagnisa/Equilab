@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BodyClassName from 'react-body-classname';
+// import BodyClassName from 'react-body-classname';
 //import { Link } from 'react-router-dom';
 
 //import json data
@@ -48,8 +48,8 @@ class Hiring extends Component {
     let pos = "Available Positions:";
 
     return (
-      <BodyClassName className="body-hiring">
-
+      // <BodyClassName className="body-hiring">
+      <div className="hiring-background">
         <div className="container d-flex">
           <div className="hiring">
             <div className="flex-row">
@@ -71,8 +71,8 @@ class Hiring extends Component {
             </div>
           </div>
         </div>
-
-      </BodyClassName>
+      </div>
+      // </BodyClassName>
       );
     }
 }
