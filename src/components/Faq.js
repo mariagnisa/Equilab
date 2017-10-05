@@ -12,7 +12,7 @@ import '../style/Faq.css';
 
 class FAQ extends Component {
 
-//search terms to filter through
+  //search terms to filter through
   renderSteps() {
     const searchTerms = [
       'Does it work on Android?',
@@ -20,7 +20,7 @@ class FAQ extends Component {
       'How do you change the the name of the horse in the app?',
     ];
 
-//Answers related to search terms
+    //Answers related to search terms
     const answerTerms = {
       'Does it work on Android?': 'Of course, you can find it on Google Play.',
       'Does it work on Iphone?': 'Of course, you can find it on Google Play.',
@@ -71,7 +71,7 @@ class FAQ extends Component {
     ];
   };
 
-//Changing the theme style
+  //Changing the theme style
   renderTheme() {
     return {
       background: 'transparent',
@@ -83,7 +83,7 @@ class FAQ extends Component {
     };
   };
 
-//Change the bots style
+  //Change the bots style
   botStyle() {
     return {
       borderRadius: '5px',
@@ -100,7 +100,7 @@ class FAQ extends Component {
 
   render() {
     return (
-      <BodyClassName className="body-faq">
+      <BodyClassName className="faq-background">
         <div className="faq_container">
           <ThemeProvider theme={this.renderTheme()}>
             <ChatBot steps={this.renderSteps()}
@@ -116,8 +116,8 @@ class FAQ extends Component {
           </ThemeProvider>
         </div>
       </BodyClassName>
-      );
-    }
+    );
+  }
 }
 
 export default FAQ;
