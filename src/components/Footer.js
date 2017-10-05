@@ -31,27 +31,27 @@ class Footer extends Component {
             HIRING
           </Link>
         </div>
-      } 
-        return <div>
-          <Link to={`/`}>
-            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
-          </Link>
-          <Link to={`/`}>
-            <img className="app-logo" src={GooglePlay} alt="Google play"/>
-          </Link>
-          <Link to={`/faq`}>
-            FAQ
-          </Link>
-          <Link to={`/hiring`}>
-            HIRING
-          </Link>
-        </div>
+      }
+      return <div>
+        <Link to={`/`}>
+          <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+        </Link>
+        <Link to={`/`}>
+          <img className="app-logo" src={GooglePlay} alt="Google play"/>
+        </Link>
+        <Link to={`/faq`}>
+          FAQ
+        </Link>
+        <Link to={`/hiring`}>
+          HIRING
+        </Link>
+      </div>
 
     }
 
     return (
       <div className="footer">
-          {footerLinks()}
+        {footerLinks()}
       </div>
     );
   }
