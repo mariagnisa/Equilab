@@ -12,7 +12,6 @@ const HiringDetails = (props) => {
 
   return (
     <BodyClassName className="hiring-background">
-      <div>
         <div className="container d-flex">
           <div className="hiring">
             <p>{props.location.state.jobs.title}</p>
