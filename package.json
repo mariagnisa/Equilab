@@ -6,6 +6,7 @@
     "glamor": "^2.20.40",
     "node-sass-chokidar": "0.0.3",
     "react": "^15.6.1",
+    "react-body-classname": "^1.2.0",
     "react-css-transition": "^0.7.4",
     "react-dom": "^15.6.1",
     "react-responsive-picture": "^2.0.0",

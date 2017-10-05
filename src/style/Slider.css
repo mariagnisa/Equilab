@@ -35,12 +35,6 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px; }
 
-body {
-  background-image: url("../assets/img/background_desktop.jpg");
-  background-size: cover;
-  background-position: 15%;
-  background-repeat: no-repeat; }
-
 .slider h5 {
   color: #46A4A2;
   font-family: "Avenir-Regular";
