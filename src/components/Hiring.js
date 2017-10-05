@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import BodyClassName from 'react-body-classname';
+import BodyClassName from 'react-body-classname';
 //import { Link } from 'react-router-dom';
 
 //import json data
@@ -48,31 +48,29 @@ class Hiring extends Component {
     let pos = "Available Positions:";
 
     return (
-      // <BodyClassName className="body-hiring">
-      <div className="hiring-background">
+      <BodyClassName className="hiring-background">
         <div className="container d-flex">
-          <div className="hiring">
-            <div className="flex-row">
-              <div className="text">
-                <div className="bold">
-                  {title}
-                  <br/>
-                  {title2}
+            <div className="hiring">
+              <div className="flex-row">
+                <div className="text">
+                  <div className="bold">
+                    {title}
+                    <br/>
+                    {title2}
+                  </div>
+                  <p className="reg">{HiringData.content}</p>
                 </div>
-                <p className="reg">{HiringData.content}</p>
               </div>
-            </div>
 
-            <div className="flex-column">
-              <div className="margin_top">
-                <p className="bold">{pos}</p>
-                <HiringList jobs={this.state.jobs} />
+              <div className="flex-column">
+                <div className="margin_top">
+                  <p className="bold">{pos}</p>
+                  <HiringList jobs={this.state.jobs} />
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      // </BodyClassName>
+        </BodyClassName>
       );
     }
 }

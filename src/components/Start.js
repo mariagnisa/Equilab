@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import BodyClassName from 'react-body-classname';
+import BodyClassName from 'react-body-classname';
 
 import Slogan from './Slogan';
 import About from './About';
@@ -10,11 +10,13 @@ import '../style/Start.css';
 class Start extends Component {
   render() {
     return (
-      <div className="start-background d-flex flex-column flex-md-row">
-        <div className="col-12">
-          <Slogan />
+      <BodyClassName className="start-background ">
+        <div className="d-flex flex-column flex-md-row">
+          <div className="col-12">
+            <Slogan />
+          </div>
         </div>
-      </div>
+      </BodyClassName>
     );
   }
 }
