@@ -1,0 +1,13 @@
+//imports
+@import "./index.scss";
+
+.body-about {
+  background-image: url('../assets/img/background_mobile_bottom.jpg');
+  background-size: cover;
+  background-position: center center;
+    @media only screen and (min-width: 576px) {
+      background-image: url('../assets/img/background_desktop.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+}
