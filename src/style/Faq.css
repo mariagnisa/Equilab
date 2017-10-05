@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Avenir-Regular";
+  src: url("../assets/fonts/AvenirNext-Regular.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Bold";
+  src: url("../assets/fonts/avenir-next-bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("../assets/fonts/AvenirNext-Medium.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-Italic";
+  src: url("../assets/fonts/AvenirNext-Italic.otf") format("opentype"); }
+
+@font-face {
+  font-family: "Avenir-UltraLight";
+  src: url("../assets/fonts/AvenirNextLTPro-UltLt.otf") format("opentype"); }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1400px !important; } }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; }
+
+.reg {
+  font-family: "Avenir-Regular";
+  font-size: 14px; }
+
+.bold {
+  font-family: "Avenir-Medium";
+  font-size: 14px; }
+
+.body-faq {
+  background-image: url("../assets/img/background_mobile_bottom.jpg");
+  background-size: cover;
+  background-position: center center; }
+  @media only screen and (min-width: 576px) {
+    .body-faq {
+      background-image: url("../assets/img/background_desktop.jpg");
+      background-size: cover;
+      background-position: center center; } }

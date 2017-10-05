@@ -35,20 +35,12 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px; }
 
-.slogan {
-  width: 16rem; }
-  .slogan h1, .slogan h2 {
-    line-height: 1.5rem; }
-  .slogan h1 {
-    color: #FFF3F3;
-    font-family: "Avenir-Bold";
-    font-size: 2.5rem;
-    letter-spacing: 3.81px; }
-  .slogan strong {
-    font-weight: bold; }
-  .slogan h2 {
-    color: #000000;
-    font-family: "Avenir-UltraLight";
-    font-size: 1.9rem;
-    font-weight: 100;
-    text-align: right; }
+.body-about {
+  background-image: url("../assets/img/background_mobile_bottom.jpg");
+  background-size: cover;
+  background-position: center center; }
+  @media only screen and (min-width: 576px) {
+    .body-about {
+      background-image: url("../assets/img/background_desktop.jpg");
+      background-size: cover;
+      background-position: center center; } }

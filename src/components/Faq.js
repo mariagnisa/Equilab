@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ChatBot from 'react-simple-chatbot';
 import stringSimilarity from 'string-similarity';
 import { ThemeProvider } from 'styled-components';
+import BodyClassName from 'react-body-classname';
 
 //import Slogan from './Slogan';
 
@@ -99,7 +100,8 @@ class FAQ extends Component {
 
   render() {
     return (
-      <div className="container d-flex">
+      <BodyClassName className="body-faq">
+
         <ThemeProvider theme={this.renderTheme()}>
           <ChatBot steps={this.renderSteps()}
             hideBotAvatar={true}
@@ -112,9 +114,10 @@ class FAQ extends Component {
             inputStyle={this.inputStyle()}
             />
         </ThemeProvider>
-      </div>
-    );
-  }
+
+      </BodyClassName>
+      );
+    }
 }
 
 export default FAQ;
