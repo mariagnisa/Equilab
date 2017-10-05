@@ -10,14 +10,16 @@ let desc = "Does some of these things describe you?";
 let contact = "Still reading?";
 
     return (
-      <div className="">
-      <h3>{props.location.state.jobs.title}</h3>
-      <p>{task}</p>
-      <p>{props.location.state.jobs.data.the_task}</p>
-      <p>{desc}</p>
-      <p>{props.location.state.jobs.data.description}</p>
-      <p>{contact}</p>
-      <p>{props.location.state.jobs.data.contact}</p>
+      <div className="container d-flex">
+        <div className="hiring">
+          <p>{props.location.state.jobs.title}</p>
+          <p>{task}</p>
+          <p>{props.location.state.jobs.data.the_task}</p>
+          <p>{desc}</p>
+          <p>{props.location.state.jobs.data.description}</p>
+          <p>{contact}</p>
+          <p>{props.location.state.jobs.data.contact}</p>
+        </div>
       </div>
     );
 

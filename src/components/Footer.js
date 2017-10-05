@@ -8,31 +8,31 @@ class Footer extends Component {
     //todo use redux or change routes structure
     function footerLinks() {
       if (window.location.href === 'http://localhost:3000/hiring') {
-        return <div>
+        return <div className="links">
           <Link to={`/`}>
-            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+            <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
           </Link>
           <Link to={`/`}>
-            <img className="app-logo" src={GooglePlay} alt="Google play"/>
+            <img className="app-logo link" src={GooglePlay} alt="Google play"/>
           </Link>
-          <Link to={`/faq`}>
+          <Link className="link_grow" to={`/faq`}>
             FAQ
           </Link>
         </div>
       } else if (window.location.href === 'http://localhost:3000/faq') {
-        return <div>
+        return <div className="links">
           <Link to={`/`}>
-            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+            <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
           </Link>
           <Link to={`/`}>
-            <img className="app-logo" src={GooglePlay} alt="Google play"/>
+            <img className="app-logo link" src={GooglePlay} alt="Google play"/>
           </Link>
-          <Link to={`/hiring`}>
+          <Link className="link_grow" to={`/hiring`}>
             HIRING
           </Link>
         </div>
       }
-      return <div>
+      return <div className="links">
         <Link to={`/`}>
           <img className="app-logo" src={GooglePlay} alt="Appstore"/>
         </Link>

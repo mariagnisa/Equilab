@@ -4,6 +4,18 @@
 .footer {
   position: absolute;
   bottom: 30px;
+  .links {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+  }
+  .link_grow {
+    flex-grow: 2;
+    text-align: right;
+  }
+  .link {
+    flex-grow: 1;
+  }
   a {
     color: $color-accent;
     text-decoration: none;

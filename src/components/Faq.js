@@ -101,20 +101,20 @@ class FAQ extends Component {
   render() {
     return (
       <BodyClassName className="body-faq">
-
-        <ThemeProvider theme={this.renderTheme()}>
-          <ChatBot steps={this.renderSteps()}
-            hideBotAvatar={true}
-            hideHeader={true}
-            hideUserAvatar={true}
-            bubbleStyle={this.botStyle()}
-            contentStyle={this.botStyle()}
-            placeholder={'Type message...'}
-            style={this.botStyle()}
-            inputStyle={this.inputStyle()}
-            />
-        </ThemeProvider>
-
+        <div className="faq_container">
+          <ThemeProvider theme={this.renderTheme()}>
+            <ChatBot steps={this.renderSteps()}
+              hideBotAvatar={true}
+              hideHeader={true}
+              hideUserAvatar={true}
+              bubbleStyle={this.botStyle()}
+              contentStyle={this.botStyle()}
+              placeholder={'Type message...'}
+              style={this.botStyle()}
+              inputStyle={this.inputStyle()}
+              />
+          </ThemeProvider>
+        </div>
       </BodyClassName>
       );
     }
