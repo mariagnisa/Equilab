@@ -25,10 +25,8 @@ class Start extends Component {
           onScroll={withOptions(this.handleScroll, {passive: true, capture: false})}
         />
         <BodyClassName className="start-background">
-          <div className="start d-flex flex-column flex-md-row">
-            <div className="col-12">
-              <Slogan />
-            </div>
+          <div className="start">
+            <Slogan />
           </div>
         </BodyClassName>
         <EventListener target={document} onMouseMoveCapture={this.handleMouseMove} />

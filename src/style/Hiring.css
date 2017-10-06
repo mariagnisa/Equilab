@@ -45,14 +45,13 @@ html, body {
       background-size: cover;
       background-position: center center; } }
 
-.container {
-  justify-content: flex-end; }
-
 .hiring {
   margin-top: 2em;
   margin-right: 1.2em;
   text-align: right;
   width: 55vw; }
+  .hiring .container {
+    justify-content: flex-end; }
   .hiring li {
     list-style: none; }
   .hiring a {
