@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { PropTypes } from 'prop-types'
+import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
 
 import Slogan from './Slogan';
@@ -8,17 +10,35 @@ import About from './About';
 import '../style/Start.css';
 
 class Start extends Component {
+
+  handleScroll = () => {
+    this.context.router.history.push('/about');
+  };
+
+
   render() {
     return (
-      <BodyClassName className="start-background ">
-        <div className="d-flex flex-column flex-md-row">
-          <div className="col-12">
-            <Slogan />
+      <div>
+        <EventListener
+          target="window"
+          onResize={this.handleResize}
+          onScroll={withOptions(this.handleScroll, {passive: true, capture: false})}
+        />
+        <BodyClassName className="start-background">
+          <div className="start d-flex flex-column flex-md-row">
+            <div className="col-12">
+              <Slogan />
+            </div>
           </div>
-        </div>
-      </BodyClassName>
+        </BodyClassName>
+        <EventListener target={document} onMouseMoveCapture={this.handleMouseMove} />
+      </div>
     );
   }
+}
+
+Start.contextTypes = {
+  router: PropTypes.object
 }
 
 export default Start;

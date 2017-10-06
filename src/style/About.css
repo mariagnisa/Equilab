@@ -25,7 +25,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 100vh; }
+  height: 100%; }
 
 .reg {
   font-family: "Avenir-Regular";
@@ -36,7 +36,7 @@ html, body {
   font-size: 14px; }
 
 .about-background {
-  background-image: url("../assets/img/background_mobile_bottom.jpg");
+  background-image: url("../assets/img/background_mobile_information.png");
   background-size: cover;
   background-position: center center; }
   @media only screen and (min-width: 576px) {
