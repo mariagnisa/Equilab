@@ -35,25 +35,27 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px; }
 
+.slider img.phoneAnimation {
+  width: 64.8%; }
+
+.slider h5, .slider p {
+  font-family: "Avenir-Regular";
+  margin: 0 auto;
+  width: 83.5%; }
+
 .slider h5 {
   color: #46A4A2;
-  font-family: "Avenir-Regular";
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 100;
-  letter-spacing: 0.05rem;
-  line-height: 1.6rem;
-  margin-left: 2.5em;
-  margin-top: -2.2em; }
+  letter-spacing: 1.14px;
+  line-height: 32px;
+  margin-top: -2em; }
 
 .slider p {
   color: #000000;
-  font-family: "Avenir-Regular";
   font-size: 0.8rem;
-  text-align: right;
-  width: 15.65rem; }
-
-.slider img.phoneAnimation {
-  width: 8em; }
+  letter-spacing: 0.76px;
+  margin-top: 0.4em; }
 
 @media only screen and (min-width: 576px) {
   .slider {
