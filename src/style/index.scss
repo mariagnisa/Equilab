@@ -47,7 +47,7 @@ $color-tolt: #6A48C4;
 html, body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .reg {
@@ -59,10 +59,3 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px;
 }
-
-// body {
-//   background-image: url('../assets/img/background_desktop.jpg');
-//   background-size: cover;
-//   background-position: 15%;
-//   background-repeat: no-repeat;
-// }
