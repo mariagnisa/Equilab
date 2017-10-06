@@ -39,11 +39,11 @@ class Footer extends Component {
         <Link to={`/`}>
           <img className="app-logo" src={GooglePlay} alt="Google play"/>
         </Link>
+          <Link to={`/hiring`}>
+            HIRING
+          </Link>
         <Link to={`/faq`}>
           FAQ
-        </Link>
-        <Link to={`/hiring`}>
-          HIRING
         </Link>
       </div>
 

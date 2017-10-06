@@ -48,12 +48,12 @@ html, body {
   .footer .link {
     flex-grow: 1; }
   .footer a {
-    color: #47A8A5;
+    color: #46A4A2;
     text-decoration: none;
     cursor: pointer;
     margin: 10px;
     font-family: "Avenir-Regular";
     font-size: 19px; }
   .footer .app-logo {
-    width: 60px;
-    height: 18px; }
+    width: 80px;
+    height: 24px; }

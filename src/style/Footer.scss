@@ -16,6 +16,7 @@
   .link {
     flex-grow: 1;
   }
+
   a {
     color: $color-accent;
     text-decoration: none;
@@ -23,11 +24,12 @@
     margin: 10px;
     font-family: "Avenir-Regular";
     font-size: 19px;
+
   }
 
   .app-logo {
-    width: 60px;
-    height: 18px;
+    width: 80px;
+    height: 24px;
   }
 }
 
