@@ -3,7 +3,7 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 
 import SliderData from '../data/slider.json';
-import SliderDot from './Slider_dots';
+// import SliderDot from './Slider_dots';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 

@@ -4,7 +4,7 @@ import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
 
 import Slogan from './Slogan';
-import About from './About';
+// import About from './About';
 // import Slider from './Slider';
 
 import '../style/Start.css';

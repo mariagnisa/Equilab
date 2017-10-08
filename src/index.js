@@ -10,7 +10,7 @@ import About from './components/About';
 import Hiring from './components/Hiring';
 import HiringDetails from './components/Hiring_details';
 import Faq from './components/Faq';
-import Slider from './components/Slider';
+// import Slider from './components/Slider';
 
 //import css
 import './style/index.css';

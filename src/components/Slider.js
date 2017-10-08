@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //import json data
-import SliderData from '../data/slider.json';
+// import SliderData from '../data/slider.json';
 
 //import components
 import PhoneAnimation from '../assets/img/3.gif';
@@ -18,7 +18,7 @@ class Slider extends Component {
         <div className="slider container d-flex flex-column">
           <img className="phoneAnimation ml-auto mr-auto mt-3" src={PhoneAnimation} alt=""/>
           <SliderList />
-          <SliderDots />
+          <SliderDots dot="active" />
         </div>
     );
   }
