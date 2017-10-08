@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import SliderData from '../data/slider.json';
 
 //import components
-import PhoneAnimation from '../assets/img/phone_slids.gif';
+import PhoneAnimation from '../assets/img/3.gif';
 import SliderList from './Slider_list';
 
 //import stylesheet
@@ -15,7 +15,7 @@ class Slider extends Component {
   render() {
     return (
         <div className="slider container d-flex flex-column">
-          <img className="phoneAnimation ml-auto mr-auto mt-5" src={PhoneAnimation} alt=""/>
+          <img className="phoneAnimation ml-auto mr-auto mt-3" src={PhoneAnimation} alt=""/>
           <SliderList />
         </div>
     );

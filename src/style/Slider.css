@@ -53,8 +53,7 @@ html, body {
 .slider p {
   color: #000000;
   font-size: 0.8rem;
-  letter-spacing: 0.76px;
-  margin-top: 0.4em; }
+  letter-spacing: 0.76px; }
 
 @media only screen and (min-width: 576px) {
   .slider {
