@@ -29,7 +29,8 @@ class Start extends Component {
             <Slogan />
           </div>
         </BodyClassName>
-        <EventListener target={document} onMouseMoveCapture={this.handleMouseMove} />
+        <EventListener target={document}
+          onMouseMoveCapture={this.handleMouseMove} />
       </div>
     );
   }

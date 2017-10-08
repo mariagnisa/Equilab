@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { AnimatedSwitch } from 'react-router-transition';
+
 
 //import moduls
 import Header from './components/Header';
@@ -24,8 +26,18 @@ ReactDOM.render(
         <Route path={`/hiring/:job`} component={HiringDetails} />
         <Route path="/faq" component={Faq} />
         <Route path="/hiring" component={Hiring} />
-        <Route path="/about" component={About} />
-        <Route path="/" component={Start} />
+        <AnimatedSwitch
+          atEnter={{ offset: -100 }}
+          atLeave={{ offset: -100 }}
+          atActive={{ offset: 0 }}
+          mapStyles={(styles) => ({
+            transform: `translateX(${styles.offset}%)`,
+          })}
+        >
+          <Route path="/about" component={About} />
+          <Route path="/" component={Start} />
+        </AnimatedSwitch>
+
       </Switch>
       <Footer />
     </div>

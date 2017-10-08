@@ -7,6 +7,7 @@ import React, { Component } from 'react';
 class SliderDots extends Component {
   constructor(props) {
     super(props);
+    console.log(props);
   }
 
   ifHidden() {
@@ -14,7 +15,7 @@ class SliderDots extends Component {
 
   render() {
     return (
-      <div className="dots d-flex">
+      <div className="dots d-flex" ref="dots">
         <div className="dot" ref={(div) => { this.sliderDotsDiv = div}}></div>
         <div className="dot" ref={(div) => { this.sliderDotsDiv = div}}></div>
         <div className="dot" ref={(div) => { this.sliderDotsDiv = div}}></div>

@@ -9,10 +9,22 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const SliderList = () => (
   <AutoPlaySwipeableViews>
-    <div className="firstSlide"><h5>{SliderData[0].title}</h5><p>{SliderData[0].content}</p></div>
-    <div className="secondSlide"><h5>{SliderData[1].title}</h5> <p>{SliderData[1].content}</p></div>
-    <div className="thirdSlide"><h5>{SliderData[2].title}</h5> <p>{SliderData[2].content}</p></div>
-    <div className="fourthSlide"><h5>{SliderData[3].title}</h5> <p>{SliderData[3].content}</p></div>
+    <div className="firstSlide">
+      <h5>{SliderData[0].title}</h5>
+      <p>{SliderData[0].content}</p>
+    </div>
+    <div className="secondSlide">
+      <h5>{SliderData[1].title}</h5>
+      <p>{SliderData[1].content}</p>
+    </div>
+    <div className="thirdSlide">
+      <h5>{SliderData[2].title}</h5>
+      <p>{SliderData[2].content}</p>
+    </div>
+    <div className="fourthSlide">
+      <h5>{SliderData[3].title}</h5>
+      <p>{SliderData[3].content}</p>
+    </div>
   </AutoPlaySwipeableViews>
 );
 

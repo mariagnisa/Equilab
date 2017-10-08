@@ -16,7 +16,7 @@ class Slider extends Component {
   render() {
     return (
         <div className="slider container d-flex flex-column">
-          <img className="phoneAnimation ml-auto mr-auto mt-3" src={PhoneAnimation} alt=""/>
+          <img className="phoneAnimation ml-auto mr-auto" src={PhoneAnimation} alt=""/>
           <SliderList />
           <SliderDots dot="active" />
         </div>

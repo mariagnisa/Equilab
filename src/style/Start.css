@@ -39,7 +39,7 @@ html, body {
   background-image: url("../assets/img/background_mobile_home.png");
   background-size: cover;
   background-position: center center;
-  height: 200%; }
+  height: 101%; }
   @media only screen and (min-width: 576px) {
     .start-background {
       background-image: url("../assets/img/background_desktop.jpg");
