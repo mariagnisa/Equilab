@@ -23,6 +23,23 @@
     letter-spacing: 0.76px;
     // margin-top: 0.4em;
   }
+  .dots {
+    margin: 0 auto;
+  }
+  .dot {
+    background-color: #46A4A2;
+  	border-radius: 50%;
+  	height: 15px;
+    margin: 10px;
+    width: 15px;
+  }
+  .aria-hidden {
+    background-color: #46A4A2;
+  	border-radius: 50%;
+  	height: 10px;
+    margin: 13px 10px 10px 10px;
+    width: 10px;
+  }
   @media only screen and (min-width: 576px) {
       margin-left: -3em;
       margin-top: 0;

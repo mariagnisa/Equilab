@@ -6,6 +6,7 @@ import SliderData from '../data/slider.json';
 //import components
 import PhoneAnimation from '../assets/img/3.gif';
 import SliderList from './Slider_list';
+import SliderDots from './Slider_dots';
 
 //import stylesheet
 import '../style/Slider.css';
@@ -17,6 +18,7 @@ class Slider extends Component {
         <div className="slider container d-flex flex-column">
           <img className="phoneAnimation ml-auto mr-auto mt-3" src={PhoneAnimation} alt=""/>
           <SliderList />
+          <SliderDots />
         </div>
     );
   }
