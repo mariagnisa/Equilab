@@ -28,7 +28,8 @@ html, body {
   height: 100%; }
 
 .slogan {
-  width: 16rem; }
+  width: 16rem;
+  margin-left: 1em; }
   .slogan h1, .slogan h2 {
     line-height: 1.5rem; }
   .slogan h1 {
@@ -44,6 +45,3 @@ html, body {
     font-size: 1.9rem;
     font-weight: 100;
     letter-spacing: 1.71px; }
-  @media only screen and (max-width: 576px) {
-    .slogan {
-      position: absolute; } }
