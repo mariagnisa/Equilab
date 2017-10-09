@@ -27,28 +27,23 @@ html, body {
   padding: 0;
   height: 100%; }
 
-.reg {
-  font-family: "Avenir-Regular";
-  font-size: 14px; }
-
-.bold {
-  font-family: "Avenir-Medium";
-  font-size: 14px; }
-
 .slogan {
   width: 16rem; }
   .slogan h1, .slogan h2 {
     line-height: 1.5rem; }
   .slogan h1 {
-    color: #FFF3F3;
+    color: #FEF1F1;
     font-family: "Avenir-Bold";
     font-size: 2.5rem;
-    letter-spacing: 3.81px; }
+    letter-spacing: 2.33px; }
   .slogan strong {
     font-weight: bold; }
   .slogan h2 {
-    color: #000000;
+    color: #FEF1F1;
     font-family: "Avenir-UltraLight";
     font-size: 1.9rem;
     font-weight: 100;
-    text-align: right; }
+    letter-spacing: 1.71px; }
+  @media only screen and (max-width: 576px) {
+    .slogan {
+      position: absolute; } }

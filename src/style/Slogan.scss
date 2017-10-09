@@ -6,10 +6,10 @@
     line-height: 1.5rem;
   }
   h1 {
-    color: #FFF3F3;
+    color: #FEF1F1;
     font-family: "Avenir-Bold";
     font-size: 2.5rem;
-    letter-spacing: 3.81px;
+    letter-spacing: 2.33px;
     // line-height: 1.75rem;
     // margin-left: 1.5rem;
   }
@@ -17,33 +17,18 @@
     font-weight: bold;
   }
   h2 {
-    color: #000000;
+    color: #FEF1F1;
     font-family: "Avenir-UltraLight";
     font-size: 1.9rem;
     font-weight: 100;
+    letter-spacing: 1.71px;
     // letter-spacing: 2.29px;
     // line-height: 3.25rem;
     // line-height: 2rem;
     // margin-right: 2.5rem;
-    text-align: right;
+    //text-align: right;
+  }
+  @media only screen and (max-width: 576px) {
+    position: absolute;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

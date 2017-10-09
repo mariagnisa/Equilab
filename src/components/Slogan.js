@@ -7,7 +7,7 @@ class Slogan extends Component {
     return (
       <div className="slogan container">
         <h1><strong>EQUILAB</strong></h1>
-        <h2>MORE RIDING</h2>
+        <h2>MORE <em>RIDING</em></h2>
         <h2>LESS WORRY</h2>
       </div>
     );

@@ -16,13 +16,15 @@ const HiringDetails = (props) => {
     <BodyClassName className="hiring-background">
         <div className="container d-flex">
           <div className="hiring_details">
-            <p className="headline">{props.location.state.jobs.title}</p>
-            <p className="title">{task}</p>
-            <p className="details_text">{props.location.state.jobs.data.the_task}</p>
-            <p className="title">{desc}</p>
-            <p className="details_text">{props.location.state.jobs.data.description}</p>
-            <p className="title">{contact}</p>
-            <p className="details_text">{contact_info}</p>
+            <div className="flex-row">
+              <p className="headline">{props.location.state.jobs.title}</p>
+              <p className="bold_details">{task}</p>
+              <p className="reg">{props.location.state.jobs.data.the_task}</p>
+              <p className="bold_details">{desc}</p>
+              <p className="reg">{props.location.state.jobs.data.description}</p>
+              <p className="bold_details">{contact}</p>
+              <p className="reg">{contact_info}</p>
+            </div>
           </div>
         </div>
       </BodyClassName>

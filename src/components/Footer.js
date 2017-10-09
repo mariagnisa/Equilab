@@ -8,49 +8,54 @@ class Footer extends Component {
     //todo use redux or change routes structure
     function footerLinks() {
       if (window.location.href === 'http://localhost:3000/hiring') {
-        return <div className="links">
-          <Link to={`/`}>
+        return <div className="footer">
+          <div className="links">
             <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
-          </Link>
-          <Link to={`/`}>
             <img className="app-logo link" src={GooglePlay} alt="Google play"/>
-          </Link>
-          <Link className="link_grow" to={`/faq`}>
-            FAQ
-          </Link>
+            <Link className="link_grow" to={`/faq`}>
+              FAQ
+            </Link>
+          </div>
         </div>
       } else if (window.location.href === 'http://localhost:3000/faq') {
-        return <div className="links">
-          <Link to={`/`}>
+        return <div className="footer">
+          <div className="links">
             <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
-          </Link>
-          <Link to={`/`}>
             <img className="app-logo link" src={GooglePlay} alt="Google play"/>
-          </Link>
-          <Link className="link_grow" to={`/hiring`}>
-            HIRING
-          </Link>
+            <Link className="link_grow" to={`/hiring`}>
+              HIRING
+            </Link>
+          </div>
+        </div>
+      } else if (window.location.href === 'http://localhost:3000/') {
+        return <div className="footer_home">
+          <div className="home_links">
+            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+
+            <img className="app-logo" src={GooglePlay} alt="Google play"/>
+            <Link to={`/faq`}>
+              FAQ
+            </Link>
+          </div>
         </div>
       }
-      return <div className="links">
-        <Link to={`/`}>
+      return <div className="footer">
+        <div className="links">
           <img className="app-logo" src={GooglePlay} alt="Appstore"/>
-        </Link>
-        <Link to={`/`}>
           <img className="app-logo" src={GooglePlay} alt="Google play"/>
-        </Link>
           <Link to={`/hiring`}>
             HIRING
           </Link>
-        <Link to={`/faq`}>
-          FAQ
-        </Link>
+          <Link to={`/faq`}>
+            FAQ
+          </Link>
+        </div>
       </div>
 
     }
 
     return (
-      <div className="footer">
+      <div>
         {footerLinks()}
       </div>
     );

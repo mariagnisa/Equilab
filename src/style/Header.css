@@ -1,3 +1,9 @@
 .header-logo {
   height: 45px;
   margin: 0.5em 2em; }
+
+.home_header .home_logo {
+  height: 45px;
+  position: relative;
+  left: 1.7em;
+  top: 150px; }

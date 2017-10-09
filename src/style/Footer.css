@@ -27,14 +27,6 @@ html, body {
   padding: 0;
   height: 100%; }
 
-.reg {
-  font-family: "Avenir-Regular";
-  font-size: 14px; }
-
-.bold {
-  font-family: "Avenir-Medium";
-  font-size: 14px; }
-
 .footer {
   position: absolute;
   bottom: 30px; }
@@ -57,3 +49,26 @@ html, body {
   .footer .app-logo {
     width: 80px;
     height: 24px; }
+
+.footer_home {
+  position: absolute;
+  bottom: 70px; }
+  .footer_home .home_links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2em; }
+    .footer_home .home_links a {
+      color: #FEF1F1;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: "Avenir-Medium";
+      font-size: 12px;
+      border: 1px solid #FEF1F1;
+      border-radius: 5px;
+      width: 80px;
+      height: 23px;
+      text-align: center; }
+    .footer_home .home_links .app-logo {
+      width: 140px;
+      height: 42px;
+      margin-bottom: 25px; }

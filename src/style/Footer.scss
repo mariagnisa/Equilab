@@ -33,9 +33,29 @@
   }
 }
 
-// a {
-//   color: white;
-//   border: 1px solid white;
-//   border-radius: 9px;
-//   padding: 4px 35px;
-// }
+.footer_home {
+  position: absolute;
+  bottom: 70px;
+  .home_links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.2em;
+    a {
+      color: #FEF1F1;
+      text-decoration: none;
+      cursor: pointer;
+      font-family: "Avenir-Medium";
+      font-size: 12px;
+      border: 1px solid #FEF1F1;
+      border-radius: 5px;
+      width: 80px;
+      height: 23px;
+      text-align: center;
+    }
+    .app-logo {
+      width: 140px;
+      height: 42px;
+      margin-bottom: 25px;
+    }
+  }
+}
