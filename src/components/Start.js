@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { PropTypes } from 'prop-types'
 import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
+import ScrollToTopOnMount from './Scroll_to_top_on_mount';
 
 import Slogan from './Slogan';
 // import About from './About';
@@ -20,6 +21,7 @@ class Start extends Component {
   render() {
     return (
       <div>
+        <ScrollToTopOnMount />
         <EventListener
           target="window"
           onResize={this.handleResize}
