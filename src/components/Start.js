@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { Redirect } from 'react-router-dom';
 import { PropTypes } from 'prop-types'
 import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
@@ -11,7 +12,9 @@ import '../style/Start.css';
 
 class Start extends Component {
   handleScroll = () => {
+    console.log(this.context.router.history.location.pathname);
     this.context.router.history.push('/about');
+    // <Redirect to="/about" />
   };
 
   render() {
