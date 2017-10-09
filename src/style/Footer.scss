@@ -7,14 +7,14 @@
   .links {
     display: flex;
     width: 100vw;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
   .link_grow {
-    flex-grow: 2;
-    text-align: right;
+    //flex-grow: 2;
+
   }
   .link {
-    flex-grow: 1;
+    //flex-grow: 1;
   }
 
   a {
@@ -23,8 +23,16 @@
     cursor: pointer;
     margin: 10px;
     font-family: "Avenir-Regular";
-    font-size: 19px;
-
+    font-size: 12px;
+  }
+  //skip border for the images
+  a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+    border: 1px solid $color-accent;
+    border-radius: 5px;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    padding-top: 2px;
   }
 
   .app-logo {
@@ -39,18 +47,23 @@
   .home_links {
     display: flex;
     flex-direction: column;
-    margin-left: 1.2em;
+    margin-left: 1.8em;
     a {
       color: #FEF1F1;
       text-decoration: none;
       cursor: pointer;
       font-family: "Avenir-Medium";
+    }
+    //skip border for the images
+    a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
       font-size: 12px;
       border: 1px solid #FEF1F1;
       border-radius: 5px;
       width: 80px;
       height: 23px;
       text-align: center;
+      letter-spacing: 0.57px;
+      padding-top: 2px;
     }
     .app-logo {
       width: 140px;

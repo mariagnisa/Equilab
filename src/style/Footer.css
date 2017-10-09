@@ -33,19 +33,21 @@ html, body {
   .footer .links {
     display: flex;
     width: 100vw;
-    justify-content: space-around; }
-  .footer .link_grow {
-    flex-grow: 2;
-    text-align: right; }
-  .footer .link {
-    flex-grow: 1; }
+    justify-content: space-evenly; }
   .footer a {
     color: #46A4A2;
     text-decoration: none;
     cursor: pointer;
     margin: 10px;
     font-family: "Avenir-Regular";
-    font-size: 19px; }
+    font-size: 12px; }
+  .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+    border: 1px solid #46A4A2;
+    border-radius: 5px;
+    width: 80px;
+    height: 23px;
+    text-align: center;
+    padding-top: 2px; }
   .footer .app-logo {
     width: 80px;
     height: 24px; }
@@ -56,18 +58,21 @@ html, body {
   .footer_home .home_links {
     display: flex;
     flex-direction: column;
-    margin-left: 1.2em; }
+    margin-left: 1.8em; }
     .footer_home .home_links a {
       color: #FEF1F1;
       text-decoration: none;
       cursor: pointer;
-      font-family: "Avenir-Medium";
+      font-family: "Avenir-Medium"; }
+    .footer_home .home_links a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
       font-size: 12px;
       border: 1px solid #FEF1F1;
       border-radius: 5px;
       width: 80px;
       height: 23px;
-      text-align: center; }
+      text-align: center;
+      letter-spacing: 0.57px;
+      padding-top: 2px; }
     .footer_home .home_links .app-logo {
       width: 140px;
       height: 42px;

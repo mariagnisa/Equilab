@@ -10,8 +10,12 @@ class Footer extends Component {
       if (window.location.href === 'http://localhost:3000/hiring') {
         return <div className="footer">
           <div className="links">
-            <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
-            <img className="app-logo link" src={GooglePlay} alt="Google play"/>
+            <Link to={`/`}>
+              <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
+            </Link>
+            <Link to={`/`}>
+              <img className="app-logo link" src={GooglePlay} alt="Googlestore"/>
+            </Link>
             <Link className="link_grow" to={`/faq`}>
               FAQ
             </Link>
@@ -20,8 +24,12 @@ class Footer extends Component {
       } else if (window.location.href === 'http://localhost:3000/faq') {
         return <div className="footer">
           <div className="links">
-            <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
-            <img className="app-logo link" src={GooglePlay} alt="Google play"/>
+            <Link to={`/`}>
+              <img className="app-logo link" src={GooglePlay} alt="Appstore"/>
+            </Link>
+            <Link to={`/`}>
+              <img className="app-logo link" src={GooglePlay} alt="Googlestore"/>
+            </Link>
             <Link className="link_grow" to={`/hiring`}>
               HIRING
             </Link>
@@ -30,9 +38,12 @@ class Footer extends Component {
       } else if (window.location.href === 'http://localhost:3000/') {
         return <div className="footer_home">
           <div className="home_links">
-            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
-
-            <img className="app-logo" src={GooglePlay} alt="Google play"/>
+            <Link to={`/`}>
+              <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+            </Link>
+            <Link to={`/`}>
+              <img className="app-logo" src={GooglePlay} alt="Googlestore"/>
+            </Link>
             <Link to={`/faq`}>
               FAQ
             </Link>
@@ -41,8 +52,12 @@ class Footer extends Component {
       }
       return <div className="footer">
         <div className="links">
-          <img className="app-logo" src={GooglePlay} alt="Appstore"/>
-          <img className="app-logo" src={GooglePlay} alt="Google play"/>
+          <Link to={`/`}>
+            <img className="app-logo" src={GooglePlay} alt="Appstore"/>
+          </Link>
+          <Link to={`/`}>
+            <img className="app-logo" src={GooglePlay} alt="Googlestore"/>
+          </Link>
           <Link to={`/hiring`}>
             HIRING
           </Link>

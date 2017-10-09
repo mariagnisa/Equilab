@@ -2,6 +2,7 @@
 
 .slogan {
   width: 16rem;
+  margin-left: 1em;
   h1, h2 {
     line-height: 1.5rem;
   }
@@ -29,6 +30,6 @@
     //text-align: right;
   }
   @media only screen and (max-width: 576px) {
-    // position: absolute;
+    //position: absolute;
   }
 }
