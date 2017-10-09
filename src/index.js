@@ -20,25 +20,25 @@ import './style/index.css';
 
 ReactDOM.render(
   <div>
-  <BrowserRouter>
-    <div>
-      <Header />
-      <Switch>
-        <Route path={`/hiring/:job`} component={HiringDetails} />
-        <Route path="/faq" component={Faq} />
-        <Route path="/hiring" component={Hiring} />
-        <AnimatedSwitch
-          atEnter={{ opacity: 0, offset: 100 }}
-          atLeave={{ opacity: spring(0), offset: spring(-100) }}
-          atActive={{ opacity: spring(1), offset: spring(0) }}
-          mapStyles={(styles) => ({
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Switch>
+          <Route path={`/hiring/:job`} component={HiringDetails} />
+          <Route path="/faq" component={Faq} />
+          <Route path="/hiring" component={Hiring} />
+          <AnimatedSwitch
+            atEnter={{ opacity: 0, offset: 100 }}
+            atLeave={{ opacity: spring(0), offset: spring(-100) }}
+            atActive={{ opacity: spring(1), offset: spring(0) }}
+            mapStyles={(styles) => ({
             transform: `translateX(${styles.offset}%)`,
-            height: 0,
-          })}
-        >
-          <Route path="/about" component={About} />
-          <Route path="/" component={Start} />
-        </AnimatedSwitch>
+              height: 0,
+            })}
+          >
+            <Route path="/about" component={About} />
+            <Route path="/" component={Start} />
+          </AnimatedSwitch>
 
       </Switch>
       <Footer />

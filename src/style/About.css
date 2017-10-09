@@ -31,7 +31,7 @@ html, body {
   background-image: url("../assets/img/background_mobile_information.png");
   background-size: cover;
   background-position: center center;
-  transition: opacity 5s ease-in-out; }
+  height: 100%; }
   @media only screen and (min-width: 576px) {
     .about-background {
       background-image: url("../assets/img/background_desktop.jpg");

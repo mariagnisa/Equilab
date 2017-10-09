@@ -10,11 +10,9 @@ import Slogan from './Slogan';
 import '../style/Start.css';
 
 class Start extends Component {
-
   handleScroll = () => {
     this.context.router.history.push('/about');
   };
-
 
   render() {
     return (
