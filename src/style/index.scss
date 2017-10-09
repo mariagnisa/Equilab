@@ -48,6 +48,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  // overflow: auto;
 }
 
 .reg {
@@ -59,3 +60,11 @@ html, body {
   font-family: "Avenir-Medium";
   font-size: 14px;
 }
+
+// .switch-wrapper {
+//   position: relative;
+// }
+//
+// .switch-wrapper > div {
+//   position: absolute;
+// }

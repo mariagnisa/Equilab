@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { AnimatedSwitch } from 'react-router-transition';
+import { spring, AnimatedSwitch, } from 'react-router-transition';
 
 
 //import moduls
@@ -19,6 +19,7 @@ import './style/index.css';
 // import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
+  <div>
   <BrowserRouter>
     <div>
       <Header />
@@ -27,11 +28,12 @@ ReactDOM.render(
         <Route path="/faq" component={Faq} />
         <Route path="/hiring" component={Hiring} />
         <AnimatedSwitch
-          atEnter={{ offset: -100 }}
-          atLeave={{ offset: -100 }}
-          atActive={{ offset: 0 }}
+          atEnter={{ opacity: 0, offset: 100 }}
+          atLeave={{ opacity: spring(0), offset: spring(-100) }}
+          atActive={{ opacity: spring(1), offset: spring(0) }}
           mapStyles={(styles) => ({
             transform: `translateX(${styles.offset}%)`,
+            height: 0,
           })}
         >
           <Route path="/about" component={About} />
@@ -42,5 +44,6 @@ ReactDOM.render(
       <Footer />
     </div>
   </BrowserRouter>
+  </div>
   , document.querySelector('.main'));
   // registerServiceWorker();

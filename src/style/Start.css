@@ -39,7 +39,8 @@ html, body {
   background-image: url("../assets/img/background_mobile_home.png");
   background-size: cover;
   background-position: center center;
-  height: 101%; }
+  height: 100.08%;
+  transition: opacity 5s ease-in-out; }
   @media only screen and (min-width: 576px) {
     .start-background {
       background-image: url("../assets/img/background_desktop.jpg");
