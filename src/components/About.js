@@ -10,11 +10,7 @@ class About extends Component {
   render() {
     return (
       <BodyClassName className="about-background ">
-        <div className="d-flex">
-          <div className="col-12">
-            <Slider />
-          </div>
-        </div>
+        <Slider />
       </BodyClassName>
     );
   }

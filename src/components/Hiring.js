@@ -5,7 +5,7 @@ import BodyClassName from 'react-body-classname';
 import HiringData from '../data/hiring.json';
 
 //import components
-import Slogan from './Slogan';
+// import Slogan from './Slogan';
 import HiringList from './Hiring_list';
 
 //import stylesheet

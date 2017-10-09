@@ -1,22 +1,22 @@
 [
   {
     "_id": "1",
-    "title": "Track",
+    "title": "TRACK",
     "content": "Automatically collect information about your training by turning on Equilab and keeping the phone in your pocket while riding."
   },
   {
     "_id": "2",
-    "title": "Details",
+    "title": "DETAILS",
     "content": "Afterwards you can analyze your training by looking at your performance, energy consumption, gait distrubution, intensity jumps, intensity,stride, beat, pace, distance, speed,surface hardness, nr of jumps, etc...."
   },
   {
     "_id": "3",
-    "title": "Trends",
+    "title": "TRENDS",
     "content": "Look at your weekly or monthly trends and get an understanding if you have balanced your training correctly. Get insights into how much you variated your training and if you followed your plan."
   },
   {
     "_id": "4",
-    "title": "Social",
+    "title": "SOCIAL",
     "content": "See how your co-riders have exercised or give your coach more insights into how you ride when he/she's not there."
   }
 ]

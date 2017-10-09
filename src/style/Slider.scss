@@ -1,27 +1,44 @@
 @import "./index.scss";
 
 .slider {
+  img.phoneAnimation {
+    width: 64.8%;
+  }
+  h5, p {
+    font-family: "Avenir-Regular";
+    margin: 0 auto;
+    width: 83.5%;
+  }
   h5 {
     color: #46A4A2;
-    font-family: "Avenir-Regular";
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 100;
-    letter-spacing: 0.05rem;
-    line-height: 1.6rem;
-    margin-left: 2.5em;
-    margin-top: -2.2em;
+    letter-spacing: 1.14px;
+    line-height: 32px;
+    // margin-top: -2em;
   }
   p {
     color: #000000;
-    font-family: "Avenir-Regular";
     font-size: 0.8rem;
-    // letter-spacing: 0.76px;
-    // margin-left: 8em;
-    text-align: right;
-    width: 15.65rem;
+    letter-spacing: 0.76px;
+    // margin-top: 0.4em;
   }
-  img.phoneAnimation {
-    width: 8em;
+  .dots {
+    margin: 0 auto;
+  }
+  .dot {
+    background-color: #46A4A2;
+  	border-radius: 50%;
+  	height: 15px;
+    margin: 10px;
+    width: 15px;
+  }
+  .aria-hidden {
+    background-color: #46A4A2;
+  	border-radius: 50%;
+  	height: 10px;
+    margin: 13px 10px 10px 10px;
+    width: 10px;
   }
   @media only screen and (min-width: 576px) {
       margin-left: -3em;
