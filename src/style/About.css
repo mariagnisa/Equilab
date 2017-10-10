@@ -28,9 +28,6 @@ html, body {
   height: 100%; }
 
 .about-background {
-  background-image: url("../assets/img/background_mobile_information.png");
-  background-size: cover;
-  background-position: center center;
   height: 100%; }
   @media only screen and (min-width: 576px) {
     .about-background {

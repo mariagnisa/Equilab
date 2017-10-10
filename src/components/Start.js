@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Redirect } from 'react-router-dom';
 import { PropTypes } from 'prop-types'
 import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
@@ -8,8 +7,11 @@ import ScrollToTopOnMount from './Scroll_to_top_on_mount';
 import Slogan from './Slogan';
 import About from './About';
 import Slider from './Slider';
+import backgroundHomeImage from '../assets/img/background_mobile_home.png';
+import backgroundAboutImage from '../assets/img/background_mobile_information.png';
 
 import '../style/Start.css';
+
 
 class Start extends Component {
   handleScroll = () => {
@@ -17,6 +19,14 @@ class Start extends Component {
     this.context.router.history.push('/about');
     // <Redirect to="/about" />
   };
+
+  componentDidMount() {
+    document.body.style.background = 'url(' + backgroundHomeImage + ')';
+  }
+
+  componentWillUnmount() {
+    document.body.style.background = 'url(' + backgroundAboutImage + ')';
+  }
 
   render() {
     return (
