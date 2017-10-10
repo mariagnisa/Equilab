@@ -9,7 +9,8 @@ class Header extends Component {
   render() {
 
     function headerLinks() {
-      if (window.location.href === 'http://localhost:3000/') {
+      // if (window.location.href === 'http://localhost:3000/') {
+      if (window.location.href === 'https://wu16.nu/') {
         return <div className="home-header">
           <Link to={`/`}>
             <img className="home-logo" src={logo} alt="Equilab"/>
