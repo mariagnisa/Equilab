@@ -33,7 +33,7 @@ class Hiring extends Component {
         <div className="container d-flex">
           <div className="hiring">
             <div className="flex-row">
-              <div className="hiring_text">
+              <div className="hiring-text">
                 <p className="headline">HIRING</p>
                 <p className="bold">
                   {title}
@@ -46,7 +46,7 @@ class Hiring extends Component {
             </div>
 
             <div className="flex-column">
-              <div className="margin_top">
+              <div className="margin-top">
                 <p className="bold">{pos}</p>
                 <HiringList jobs={this.state.jobs} />
               </div>

@@ -3,11 +3,17 @@
   margin: 0.5em 2em;
 }
 
-.home_header {
-  .home_logo {
+.home-header {
+  .home-logo {
     height: 45px;
     position: relative;
     left: 1.7em;
     top: 23vh;
+    @media only screen and (max-width: 321px) {
+      top: 25vh;
+    }
+    @media only screen and (min-width: 414px) and (max-width: 576px) {
+      top: 20vh;
+    }
   }
 }

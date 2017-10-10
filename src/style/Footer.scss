@@ -9,14 +9,6 @@
     width: 100vw;
     justify-content: space-evenly;
   }
-  .link_grow {
-    //flex-grow: 2;
-
-  }
-  .link {
-    //flex-grow: 1;
-  }
-
   a {
     color: $color-accent;
     text-decoration: none;
@@ -30,9 +22,14 @@
     border: 1px solid $color-accent;
     border-radius: 5px;
     width: 80px;
-    height: 23px;
+    height: 26px;
     text-align: center;
     padding-top: 2px;
+    &:hover, &:active {
+      color: white;
+      background-color: $color-accent;
+      border: 1px solid white;
+    }
   }
 
   .app-logo {
@@ -41,10 +38,10 @@
   }
 }
 
-.footer_home {
+.footer-home {
   position: absolute;
   bottom: 70px;
-  .home_links {
+  .home-links {
     display: flex;
     flex-direction: column;
     margin-left: 1.8em;

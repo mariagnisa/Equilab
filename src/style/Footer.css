@@ -35,36 +35,40 @@ html, body {
     width: 100vw;
     justify-content: space-evenly; }
   .footer a {
-    color: #46A4A2;
+    color: #47A8A5;
     text-decoration: none;
     cursor: pointer;
     margin: 10px;
     font-family: "Avenir-Regular";
     font-size: 12px; }
   .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
-    border: 1px solid #46A4A2;
+    border: 1px solid #47A8A5;
     border-radius: 5px;
     width: 80px;
-    height: 23px;
+    height: 26px;
     text-align: center;
     padding-top: 2px; }
+    .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)):hover, .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)):active {
+      color: white;
+      background-color: #47A8A5;
+      border: 1px solid white; }
   .footer .app-logo {
     width: 80px;
     height: 24px; }
 
-.footer_home {
+.footer-home {
   position: absolute;
   bottom: 70px; }
-  .footer_home .home_links {
+  .footer-home .home-links {
     display: flex;
     flex-direction: column;
     margin-left: 1.8em; }
-    .footer_home .home_links a {
+    .footer-home .home-links a {
       color: #FEF1F1;
       text-decoration: none;
       cursor: pointer;
       font-family: "Avenir-Medium"; }
-    .footer_home .home_links a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+    .footer-home .home-links a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
       font-size: 12px;
       border: 1px solid #FEF1F1;
       border-radius: 5px;
@@ -73,7 +77,7 @@ html, body {
       text-align: center;
       letter-spacing: 0.57px;
       padding-top: 2px; }
-    .footer_home .home_links .app-logo {
+    .footer-home .home-links .app-logo {
       width: 140px;
       height: 42px;
       margin-bottom: 25px; }

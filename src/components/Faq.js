@@ -101,7 +101,7 @@ class FAQ extends Component {
   render() {
     return (
       <BodyClassName className="faq-background">
-        <div className="faq_container">
+        <div className="faq-container">
           <ThemeProvider theme={this.renderTheme()}>
             <ChatBot steps={this.renderSteps()}
               hideBotAvatar={true}

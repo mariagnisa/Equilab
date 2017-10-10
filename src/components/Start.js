@@ -4,8 +4,8 @@ import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
 
 import Slogan from './Slogan';
-// import About from './About';
-// import Slider from './Slider';
+import About from './About';
+import Slider from './Slider';
 
 import '../style/Start.css';
 
@@ -25,8 +25,10 @@ class Start extends Component {
           onScroll={withOptions(this.handleScroll, {passive: true, capture: false})}
         />
         <BodyClassName className="start-background">
-          <div className="start">
-            <Slogan />
+          <div className="start-container">
+            <div className="start">
+              <Slogan />
+            </div>
           </div>
         </BodyClassName>
         <EventListener target={document}

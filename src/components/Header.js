@@ -10,9 +10,9 @@ class Header extends Component {
 
     function headerLinks() {
       if (window.location.href === 'http://localhost:3000/') {
-        return <div className="home_header">
+        return <div className="home-header">
           <Link to={`/`}>
-            <img className="home_logo" src={logo} alt="Equilab"/>
+            <img className="home-logo" src={logo} alt="Equilab"/>
           </Link>
         </div>
       }

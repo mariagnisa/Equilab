@@ -15,14 +15,14 @@ const HiringDetails = (props) => {
   return (
     <BodyClassName className="hiring-background">
         <div className="container d-flex">
-          <div className="hiring_details">
+          <div className="hiring-details">
             <div className="flex-row">
               <p className="headline">{props.location.state.jobs.title}</p>
-              <p className="bold_details">{task}</p>
+              <p className="bold-details">{task}</p>
               <p className="reg">{props.location.state.jobs.data.the_task}</p>
-              <p className="bold_details">{desc}</p>
+              <p className="bold-details">{desc}</p>
               <p className="reg">{props.location.state.jobs.data.description}</p>
-              <p className="bold_details">{contact}</p>
+              <p className="bold-details">{contact}</p>
               <p className="reg">{contact_info}</p>
             </div>
           </div>
