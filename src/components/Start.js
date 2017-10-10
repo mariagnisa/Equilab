@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+// import { Redirect } from 'react-router-dom';
 import { PropTypes } from 'prop-types'
 import EventListener, {withOptions} from 'react-event-listener';
 import BodyClassName from 'react-body-classname';
+import ScrollToTopOnMount from './Scroll_to_top_on_mount';
 
 import Slogan from './Slogan';
 import About from './About';
@@ -10,15 +12,16 @@ import Slider from './Slider';
 import '../style/Start.css';
 
 class Start extends Component {
-
   handleScroll = () => {
+    console.log(this.context.router.history.location.pathname);
     this.context.router.history.push('/about');
+    // <Redirect to="/about" />
   };
-
 
   render() {
     return (
       <div>
+        <ScrollToTopOnMount />
         <EventListener
           target="window"
           onResize={this.handleResize}

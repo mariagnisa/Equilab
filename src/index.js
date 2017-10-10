@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { spring, AnimatedSwitch, } from 'react-router-transition';
-
 
 //import moduls
 import Header from './components/Header';
@@ -20,30 +19,30 @@ import './style/index.css';
 
 ReactDOM.render(
   <div>
-  <BrowserRouter>
-    <div>
-      <Header />
-      <Switch>
-        <Route path={`/hiring/:job`} component={HiringDetails} />
-        <Route path="/faq" component={Faq} />
-        <Route path="/hiring" component={Hiring} />
-        <AnimatedSwitch
-          atEnter={{ opacity: 0, offset: 100 }}
-          atLeave={{ opacity: spring(0), offset: spring(-100) }}
-          atActive={{ opacity: spring(1), offset: spring(0) }}
-          mapStyles={(styles) => ({
+    <Router>
+      <div>
+        <Header />
+        <Switch>
+          <Route path={`/hiring/:job`} component={HiringDetails} />
+          <Route exact path="/faq" component={Faq} />
+          <Route exact path="/hiring" component={Hiring} />
+          <AnimatedSwitch
+            atEnter={{ opacity: 0, offset: 100 }}
+            atLeave={{ opacity: spring(0), offset: spring(-100) }}
+            atActive={{ opacity: spring(1), offset: spring(0) }}
+            mapStyles={(styles) => ({
             transform: `translateX(${styles.offset}%)`,
-            height: 0,
-          })}
-        >
-          <Route path="/about" component={About} />
-          <Route path="/" component={Start} />
-        </AnimatedSwitch>
+              height: 0,
+            })}
+          >
+            <Route exact path="/about" component={About} />
+            <Route exact path="/" component={Start} />
+          </AnimatedSwitch>
 
-      </Switch>
-      <Footer />
-    </div>
-  </BrowserRouter>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   </div>
   , document.querySelector('.main'));
   // registerServiceWorker();
