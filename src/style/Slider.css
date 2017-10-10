@@ -28,7 +28,7 @@ html, body {
   height: 100%; }
 
 .slider img.phoneAnimation {
-  width: 64.8%; }
+  width: 72%; }
 
 .slider h5, .slider p {
   font-family: "Avenir-Regular";
@@ -37,15 +37,18 @@ html, body {
 
 .slider h5 {
   color: #46A4A2;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 1.14px;
   line-height: 32px; }
 
 .slider p {
   color: #000000;
-  font-size: 0.8rem;
+  font-size: 1rem;
   letter-spacing: 0.76px; }
+
+.slider .slider-texts {
+  margin-bottom: 1em; }
 
 .slider .dots {
   margin: 0 auto; }

@@ -38,31 +38,35 @@ html, body {
     color: #47A8A5;
     text-decoration: none;
     cursor: pointer;
-    margin: 10px;
+    margin: 5px;
     font-family: "Avenir-Regular";
     font-size: 12px; }
-  .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)) {
+  .footer .footer-link a {
     border: 1px solid #47A8A5;
     border-radius: 5px;
-    width: 80px;
-    height: 26px;
     text-align: center;
-    padding-top: 2px; }
-    .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)):hover, .footer a:not(:nth-of-type(1)):not(:nth-of-type(2)):active {
+    padding: 5px 20px; }
+    .footer .footer-link a:hover, .footer .footer-link a:active {
       color: white;
-      background-color: #47A8A5;
-      border: 1px solid white; }
+      background-color: #47A8A5; }
   .footer .app-logo {
     width: 80px;
-    height: 24px; }
+    height: 26px; }
 
 .footer-home {
   position: absolute;
-  bottom: 70px; }
+  bottom: 70px;
+  width: 100%; }
   .footer-home .home-links {
     display: flex;
     flex-direction: column;
     margin-left: 1.8em; }
+    .footer-home .home-links .swipe-gif {
+      position: absolute;
+      right: 3em;
+      bottom: -2.3em; }
+      .footer-home .home-links .swipe-gif img {
+        height: 8em; }
     .footer-home .home-links a {
       color: #FEF1F1;
       text-decoration: none;
