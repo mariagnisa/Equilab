@@ -28,6 +28,7 @@ html, body {
   height: 100%; }
 
 .slider img.phoneAnimation {
+  margin-top: -1em;
   width: 72%; }
 
 .slider h5, .slider p {
