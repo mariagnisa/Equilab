@@ -9,7 +9,7 @@ const HiringListItem = ({job}) => {
     <Link to={{
       pathname: `/hiring/${job.title.replace(/\s+/g, '')}`,
       state: { jobs: job }
-    }} key={job._id} >
+    }} key={job._id}>
     <li>
     {job.title}
     </li>

@@ -9,8 +9,9 @@ const HiringDetails = (props) => {
   let task = "The task at hand";
   let desc = "Does some of these things describe you?";
   let contact = "Still reading?";
-  //let email = <span> "team@equilab.horse" </span>;
-  let contact_info = `Contact us at team@equilab.horse and let us talk it over! We are based in Gothenburg.`;
+  let contact_info = "Contact us at ";
+  let email = "team@equilab.horse";
+  let contact_info2 = " and let us talk it over! We are based in Gothenburg.";
 
   return (
     <BodyClassName className="hiring-background">
@@ -23,7 +24,7 @@ const HiringDetails = (props) => {
               <p className="bold-details">{desc}</p>
               <p className="reg">{props.location.state.jobs.data.description}</p>
               <p className="bold-details">{contact}</p>
-              <p className="reg">{contact_info}</p>
+              <p className="reg">{contact_info}<span>{email}</span>{contact_info2}</p>
             </div>
           </div>
         </div>

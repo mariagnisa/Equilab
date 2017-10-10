@@ -47,6 +47,8 @@ html, body {
   font-size: 14px;
   letter-spacing: 0.76px;
   line-height: 22px; }
+  .reg span {
+    color: #ED6C44; }
 
 .bold {
   font-family: "Avenir-Medium";

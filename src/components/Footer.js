@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import GooglePlay from '../assets/img/google-play-badge.png';
 import Applestore from '../assets/img/apple_download.png';
 import Gif from '../assets/img/swipe_animation.gif';
@@ -15,35 +15,35 @@ class Footer extends Component {
             <div className="swipe-gif">
             <img src={Gif} alt="swipe gif"/>
             </div>
-            <Link to={`/`}>
+            <NavLink to={`https://itunes.apple.com/se/app/equilab-h%C3%A4sttr%C3%A4ning/id1133163586?mt=8`}>
               <img className="app-logo" src={Applestore} alt="Appstore"/>
-            </Link>
-            <Link to={`/`}>
+            </NavLink>
+            <NavLink to={`https://play.google.com/store/apps/details?id=horse.schvung.equilab`}>
               <img className="app-logo" src={GooglePlay} alt="Googlestore"/>
-            </Link>
-            <Link to={`/faq`}>
+            </NavLink>
+            <NavLink to={`/faq`} activeClassName="active">
               FAQ
-            </Link>
+            </NavLink>
           </div>
         </div>
       }
       return <div className="footer">
         <div className="links">
           <div>
-            <Link to={`/`}>
+            <NavLink to={`https://itunes.apple.com/se/app/equilab-h%C3%A4sttr%C3%A4ning/id1133163586?mt=8`}>
               <img className="app-logo" src={Applestore} alt="Appstore"/>
-            </Link>
-            <Link to={`/`}>
+            </NavLink>
+            <NavLink to={`https://play.google.com/store/apps/details?id=horse.schvung.equilab`}>
               <img className="app-logo" src={GooglePlay} alt="Googlestore"/>
-            </Link>
+            </NavLink>
           </div>
           <div className="footer-link">
-            <Link to={`/hiring`}>
+            <NavLink to={`/hiring`} activeClassName="active">
               HIRING
-            </Link>
-            <Link to={`/faq`}>
+            </NavLink>
+            <NavLink to={`/faq`} activeClassName="active">
               FAQ
-            </Link>
+            </NavLink>
           </div>
         </div>
       </div>

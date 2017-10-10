@@ -45,10 +45,15 @@ html, body {
     border: 1px solid #47A8A5;
     border-radius: 5px;
     text-align: center;
+    padding: 5px 20px;
+    letter-spacing: 1px; }
+  .footer .footer-link .active {
+    color: white;
+    background-color: #47A8A5;
+    border: 1px solid #47A8A5;
+    border-radius: 5px;
+    text-align: center;
     padding: 5px 20px; }
-    .footer .footer-link a:hover, .footer .footer-link a:active {
-      color: white;
-      background-color: #47A8A5; }
   .footer .app-logo {
     width: 80px;
     height: 26px; }
