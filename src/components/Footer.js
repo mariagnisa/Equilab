@@ -9,7 +9,8 @@ class Footer extends Component {
   render() {
     //todo use redux or change routes structure
     function footerLinks() {
-      if (window.location.href === 'http://localhost:3000/') {
+      // if (window.location.href === 'http://localhost:3000/') {
+      if (window.location.href === 'https://wu16.nu/') {
         return <div className="footer-home">
           <div className="home-links">
             <div className="swipe-gif">

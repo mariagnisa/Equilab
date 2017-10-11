@@ -28,11 +28,7 @@ html, body {
   height: 100%; }
 
 .start-background {
-  background-image: url("../assets/img/background_mobile_home.png");
-  background-size: cover;
-  background-position: center center;
-  height: 200%;
-  overflow: -webkit-paged-y; }
+  height: 100.08%; }
   @media only screen and (min-width: 576px) {
     .start-background {
       background-image: url("../assets/img/background_desktop.jpg");

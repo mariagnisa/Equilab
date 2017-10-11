@@ -2,15 +2,15 @@
 @import "./index.scss";
 
 .start-background {
-  background-image: url('../assets/img/background_mobile_home.png');
-  background-size: cover;
-  background-position: center center;
-  // height: 100.08%;
+  // background-image: url('../assets/img/background_mobile_home.png');
+  // background-size: cover;
+  // background-position: center center;
+  height: 100.08%;
   // transition: opacity 5s ease-in-out;
 
   // Temporary fix for chrome devtools
-  height: 200%;
-  overflow: -webkit-paged-y;
+  // height: 200%;
+  // overflow: -webkit-paged-y;
   // end of temporary fix for chrome devtools
 
     @media only screen and (min-width: 576px) {

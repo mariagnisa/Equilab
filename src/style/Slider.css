@@ -28,6 +28,7 @@ html, body {
   height: 100%; }
 
 .slider img.phoneAnimation {
+  margin-top: -1em;
   width: 72%; }
 
 .slider h5, .slider p {
@@ -44,8 +45,10 @@ html, body {
 
 .slider p {
   color: #000000;
-  font-size: 1rem;
-  letter-spacing: 0.76px; }
+  font-size: 0.9rem;
+  letter-spacing: 0.76px;
+  line-height: 1.2;
+  margin-top: 0.4em; }
 
 .slider .slider-texts {
   margin-bottom: 1em; }
@@ -54,11 +57,20 @@ html, body {
   margin: 0 auto; }
 
 .slider .dot {
-  background-color: #47A8A5;
+  background-color: #46A4A2;
   border-radius: 50%;
   height: 15px;
   margin: 10px;
-  width: 15px; }
+  width: 15px;
+  transition: all 0.7s; }
+
+.slider .dotsmall {
+  background-color: #46A4A2;
+  border-radius: 50%;
+  height: 10px;
+  margin: 13px;
+  width: 10px;
+  transition: all 0.7s; }
 
 @media only screen and (min-width: 576px) {
   .slider {
