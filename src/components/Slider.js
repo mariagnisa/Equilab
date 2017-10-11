@@ -18,7 +18,7 @@ class Slider extends Component {
     });
     //Set state to json data
     this.state = { slides: data, index: 0 };
-    console.log(this.state);
+    // console.log(this.state);
   }
 
   handleChangeIndex (index, fromIndex) {
@@ -28,11 +28,14 @@ class Slider extends Component {
   }
 
   render() {
+    // console.log(this.state);
     return (
         <div className="slider container d-flex flex-column">
           <img className="phoneAnimation ml-auto mr-auto" src={PhoneAnimation} alt=""/>
           <div className="slider-texts">
-            <SliderList index={this.state.index} onChangeIndex= {(index) => this.handleChangeIndex(index)} />
+            <SliderList slides={this.state.slides}
+              index={this.state.index}
+              onChangeIndex={(index) => this.handleChangeIndex(index)} />
           </div>
           <SliderDots index={this.state.index} />
         </div>
